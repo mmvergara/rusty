@@ -1,4 +1,8 @@
 fn bigger(a: i32, b: i32) -> i32 {
+    match a.cmp(&b) {
+        std::cmp::Ordering::Less => a,
+        _ => a,
+    }
     // TODO: Complete this function to return the bigger number!
     // If both numbers are equal, any of them can be returned.
     // Do not use:
