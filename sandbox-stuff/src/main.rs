@@ -1,4 +1,4 @@
-use shapes::j2rect::Rect;
+use shapes::rect::Rect;
 
 mod shapes;
 
